@@ -107,7 +107,7 @@ nav {
 }
 
 
- .container .contact .contactus{
+.container .contact .contactus{
     display: flex;
     flex-direction: column;
     background: #32a0c2;
@@ -120,15 +120,29 @@ nav {
 }
 .butn{
     height: 2rem;
-    /* background:#ccc; */
+    background:#333;
+    color: blanchedalmond;
     border: 1px solid #ccc;
     border-radius: 3px;
     width: 5rem;
     padding: 5px 15px;
-    margin: 0.2rem 0.2rem 0 0;
+    margin:1rem 0rem ;
     cursor: pointer;
     text-align: center;
 }
 .container .contact .contactus input{
     padding: 0.5rem;
+}
+@media(max-width:822px){
+    nav .branding,nav ul,nav ul li{
+        float: none;
+    text-align: center;
+    width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
 }

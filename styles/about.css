@@ -123,6 +123,17 @@ nav {
     text-align: center;
     font-size: 1.2rem;
 }
-  
+  @media(max-width:768px){
+    nav .branding,nav ul,nav ul li{
+        float: none;
+    text-align: center;
+    width: 100%;
+        }
+        .left {
+            display: flex;
+            flex-direction:column;
+          } 
+
+  }
 
   
