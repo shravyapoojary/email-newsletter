@@ -47,11 +47,11 @@ li {
 /*selectors - tag, class,  */
 /* Navbar Styling start */
 nav {
-  background-color: #353637;
+  background-color: #031b33;
   color: #fff;
   padding: 1rem 0;
   min-height: 4.5rem;
-  border: 3px solid #32a0c2;
+  border: 3px solid #65ceee;
 }
 nav a {
   text-transform: uppercase;
@@ -126,7 +126,7 @@ header p {
 .newsletter {
   padding: 1rem;
   color: #fff;
-  background: #353637;
+  background: #031b33;
   
 }
 
@@ -162,23 +162,26 @@ header p {
 .cards{
     padding: 2rem 0;
     margin: 2rem 0;
+    
 }
 .cards .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-
+    
 }
 
 .cards .container .card{
     width: 28%;
     margin: 0 1rem;
-    padding: 0 0.5rem;
+    padding: 1 1rem;
+    background-color: rgb(66, 174, 247);
+    border: 1px solid #88e3ff;
 }
 
 .cards .container .card i{
-    color: #32a0c2;
+    color: #031b33;
     padding-bottom: 1rem;
 }
 
@@ -189,6 +192,7 @@ header p {
 
 .cards .container .card p{
     padding-bottom: 1rem;
+    
 }
 /* cards styling end */
 
@@ -196,7 +200,7 @@ footer{
     padding: 1rem;
     margin-top: 1rem;
     color: #fff;
-    background-color: #32a0c2;
+    background-color: #031b33;
     text-align: center;
     font-size: 1.2rem;
 }
